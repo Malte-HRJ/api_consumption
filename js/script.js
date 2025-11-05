@@ -67,7 +67,7 @@ function constructMovieCard(movie) {
 window.addEventListener("load", async () => {
   
   const currentEndpoint = window.location.pathname.replace("/","").replace(".html","")
-  const apiKey ="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4MjI3NTA4MTI3NTQzOWRiYzcwZDRhMDczMjEzMGZlYyIsIm5iZiI6MTc1OTEzNjMyMC43ODQ5OTk4LCJzdWIiOiI2OGRhNGE0MDQ4NzQyMWM4Y2IzOGMxYjciLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.Ec_tx2fZ_g30A4tVgQv5_r18LNo3Z3M5DMPdJ6P5jaU"
+  const apiKey ="INSERT API KEY"
   const data = await fetchData(currentEndpoint,apiKey,"");
 
   data.results.forEach((movie) => {
